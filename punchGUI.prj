@@ -1,0 +1,124 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration file="C:\MATLAB(common)\2021\PATMA_v0.3_WIP\punchGUI.prj" location="C:\MATLAB(common)\2021\PATMA_v0.3_WIP" name="punchGUI" target="target.mlapps" target-name="Package App">
+    <param.appname>punchGUI</param.appname>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms>
+      <item>win64</item>
+    </param.platforms>
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>6dbb1a5d-0de6-42e2-ae58-d1a080becb81</param.guid>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\punchGUI.m</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\findEmpties2.m</file>
+      <file>${PROJECT_ROOT}\findRowCol2.m</file>
+      <file>${PROJECT_ROOT}\getProcOptions.m</file>
+      <file>${PROJECT_ROOT}\getRefDistance.m</file>
+      <file>${PROJECT_ROOT}\libopenslide_thunk_pcwin64.dll</file>
+      <file>${PROJECT_ROOT}\libopenslide_thunk_pcwin64.exp</file>
+      <file>${PROJECT_ROOT}\libopenslide_thunk_pcwin64.lib</file>
+      <file>${PROJECT_ROOT}\libopenslide_thunk_pcwin64.obj</file>
+      <file>${PROJECT_ROOT}\myLibraryFile.m</file>
+      <file>${PROJECT_ROOT}\OpenSlide</file>
+      <file>${PROJECT_ROOT}\OpenSlide\libopenslide_thunk_pcwin64.dll</file>
+      <file>${PROJECT_ROOT}\OpenSlide\libopenslide_thunk_pcwin64.exp</file>
+      <file>${PROJECT_ROOT}\OpenSlide\libopenslide_thunk_pcwin64.lib</file>
+      <file>${PROJECT_ROOT}\OpenSlide\libopenslide_thunk_pcwin64.obj</file>
+      <file>${PROJECT_ROOT}\OpenSlide\LICENSE</file>
+      <file>${PROJECT_ROOT}\OpenSlide\myLibraryFile.m</file>
+      <file>${PROJECT_ROOT}\OpenSlide\openslide-wrapper.h</file>
+      <file>${PROJECT_ROOT}\OpenSlide\openslide_close.m</file>
+      <file>${PROJECT_ROOT}\OpenSlide\openslide_detect_vendor.m</file>
+      <file>${PROJECT_ROOT}\OpenSlide\openslide_get_associated_image_dimensions.m</file>
+      <file>${PROJECT_ROOT}\OpenSlide\openslide_get_associated_image_names.m</file>
+      <file>${PROJECT_ROOT}\OpenSlide\openslide_get_best_level_for_downsample.m</file>
+      <file>${PROJECT_ROOT}\OpenSlide\openslide_get_error.m</file>
+      <file>${PROJECT_ROOT}\OpenSlide\openslide_get_level0_dimensions.m</file>
+      <file>${PROJECT_ROOT}\OpenSlide\openslide_get_level_count.m</file>
+      <file>${PROJECT_ROOT}\OpenSlide\openslide_get_level_dimensions.m</file>
+      <file>${PROJECT_ROOT}\OpenSlide\openslide_get_level_downsample.m</file>
+      <file>${PROJECT_ROOT}\OpenSlide\openslide_get_property_names.m</file>
+      <file>${PROJECT_ROOT}\OpenSlide\openslide_get_property_value.m</file>
+      <file>${PROJECT_ROOT}\OpenSlide\openslide_get_slide_properties.m</file>
+      <file>${PROJECT_ROOT}\OpenSlide\openslide_get_version.m</file>
+      <file>${PROJECT_ROOT}\OpenSlide\openslide_load_library.m</file>
+      <file>${PROJECT_ROOT}\OpenSlide\openslide_open.m</file>
+      <file>${PROJECT_ROOT}\OpenSlide\openslide_read_associated_image.m</file>
+      <file>${PROJECT_ROOT}\OpenSlide\openslide_read_region.m</file>
+      <file>${PROJECT_ROOT}\OpenSlide\openslide_unload_library.m</file>
+      <file>${PROJECT_ROOT}\OpenSlide\README.md</file>
+      <file>${PROJECT_ROOT}\PATMA.m</file>
+      <file>${PROJECT_ROOT}\punch_objects.m</file>
+      <file>${PROJECT_ROOT}\punch_preprocessing.m</file>
+      <file>${PROJECT_ROOT}\punchGUI.fig</file>
+      <file>${PROJECT_ROOT}\punchGUI.m</file>
+      <file>${PROJECT_ROOT}\punchGUI.prj</file>
+      <file>${PROJECT_ROOT}\PunchGUI_manual.pdf</file>
+      <file>${PROJECT_ROOT}\punchNumberUpdate.m</file>
+      <file>${PROJECT_ROOT}\treatArea2.m</file>
+      <file>${PROJECT_ROOT}\treatNotinTable1.m</file>
+      <file>${PROJECT_ROOT}\treatOverlap2.m</file>
+      <file>${PROJECT_ROOT}\updateTable.m</file>
+      <file>${PROJECT_ROOT}\wsi_preprocessing.m</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\MATLAB(common)\2021" name="PATMA_v0.3_WIP" optional="false">C:\MATLAB(common)\2021\PATMA_v0.3_WIP</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2019a</root>
+      <toolboxes>
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.1</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
