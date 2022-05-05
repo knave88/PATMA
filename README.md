@@ -4,6 +4,8 @@ PATMA: parser of archival tissue microarray
 ### Description
 Tissue microarrays are commonly used in modern pathology for cancer tissue evaluation, as it is a very potent technique. Tissue microarray slides are often scanned to perform computer-aided histopathological analysis of the tissue cores. For processing the image, splitting the whole virtual slide into images of individual cores is required. The only way to distinguish cores corresponding to specimens in the tissue microarray is through their arrangement. Unfortunately, distinguishing the correct order of cores is not a trivial task as they are not labelled directly on the slide. The main aim of this study was to create a procedure capable of automatically finding and extracting cores from archival images of the tissue microarrays. This software supports the work of scientists who want to perform further image processing on single cores. The proposed method is an efficient and fast procedure, working in fully automatic or semi-automatic mode. A total of 89% of punches were correctly extracted with automatic selection. With an addition of manual correction, it is possible to fully prepare the whole slide image for extraction in 2 min per tissue microarray. The proposed technique requires minimum skill and time to parse big array of cores from tissue microarray whole slide image into individual core images.
 
+![Alt Text](https://github.com/knave88/PATMA/blob/main/Patma_vid.gif)
+
 PATMA software source code created and tested in MATLAB R2015b
 
 ### Publication
