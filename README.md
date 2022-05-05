@@ -15,6 +15,8 @@ DOI: https://doi.org/10.7717/peerj.2741
 
 ****
 ### Acknowledgement
+The related study was conducted in Laboratory of Processing and Analysis of Microscopic Images (head: D.Sc. Anna Korzynska) in Nalecz Institute of Biocybernetics and Biomedical Engineering Polish Academy of Sciences.
+
 The study is cofounded by the European Union from resources of the European Social Fund. Project PO KL “Information technologies: Research and their interdisciplinary applications,” Agreement UDA-POKL.04.01.01-00-051/10-00. This work is cofounded by grant number PI11/0488 from the Institute of Health Carlos III (Instituto de Salud Carlos III), Spain. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
 
 ### Liability
